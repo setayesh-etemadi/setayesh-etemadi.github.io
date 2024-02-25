@@ -1,11 +1,498 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style04.css">
+    <link rel="stylesheet" href="font/flaticon.css">
 </head>
+
 <body>
-    <a href="../../amplify/page04.html">click here!</a>
+    <section class="nav-section">
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid ">
+                <a class="fw-bolder text-dark text-decoration-none fs-5">Amplify</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="offcanvas offcanvas-end d-lg-none" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+                    <div class="offcanvas-header">
+                        <h5 class="offcanvas-title" id="offcanvasExampleLabel">Offcanvas</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                    </div>
+                    <div class="offcanvas-body">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0 d-lg-flex  w-50" style="justify-content: space-evenly;">
+                            <li class="nav-item">
+                                <a class="nav-link fs-5 h-100" aria-current="page" href="#">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link fs-5" href="#">Work</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link fs-5" href="#">Process</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link fs-5 " aria-disabled="true">Services</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="collapse navbar-collapse " id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0 d-lg-flex  w-50" style="justify-content: space-evenly;">
+                        <li class="nav-item">
+                            <a class="nav-link fs-5 h-100" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link fs-5" href="#">Work</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link fs-5" href="#">Process</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link fs-5 " href="#">Services</a>
+                        </li>
+                    </ul>
+                    <form class="d-flex navbar-btn " role="search">
+                        <button class="btn btn-outline-success text-dark " type="submit">Contact</button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+    </section>
+
+    <section class="d-flex justify-content-center align-items-center bg-color mb-5 bg-amplify " >
+        <div class="container ">
+            <div class="row w-100">
+                <div class="col-12  d-xl-flex align-items-xl-center p-img-position " style="margin-top:100px;">
+                    <div class=" height-custom ">
+                        <h1 class="text-white bold-font  text-left"> we do things right.</h1>
+                        <p class="first-p fw-lighter text-left w-75">Lorem ipsum, dolor sit amet consectetur
+                            adipisicing elit. Consequuntur quae modi ea totam vero nam deserunt ipsum, nostrum optio
+                            illo! </p>
+                        <button class=" text-white border border-white rounded-1 d-xl-block header-btn">GET STARTED</button>
+                    </div>
+                    <div class=" img-position z-index-custom mt-2"><img class=" " src="images/girl1.jpg" alt=""></div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section style="padding-top: 200px;padding-bottom: 100px;">
+        <div class="row container mx-auto">
+            <div class=" col-12 col-lg-6 mx-xl-auto mx-sm-auto">
+                <div class="w-80 me-xl-auto">
+                    <small class="sub-heading">About Amplify</small>
+                    <h2 class="bold-font my-3">We Value More on Quality and not in Quantity.</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem
+                        possimus distinctio ex. Natus totam
+                        voluptatibus animi aspernatur ducimus quas obcaecati mollitia quibusdam temporibus culpa
+                        dolore
+                        molestias blanditiis consequuntur sunt nisi.</p>
+                </div>
+                <div class="row">
+                    <div class="col-12 col-lg-4 col-md-6">
+                        <div class="d-flex">
+                            <span class="pt-4 pe-3">
+                                <span class="flaticon-reload text-primary fs-2"></span>
+                            </span>
+                            <div class="d-flex flex-column">
+                                <span class="f-bold">260</span>
+                                <span class="sp-font">Number of Person </span>
+                            </div>
+                        </div>
+                        <div class="d-flex">
+                            <span class="pt-4 pe-3">
+                                <span class="flaticon-monitor text-primary fs-2"></span>
+                            </span>
+                            <div class="d-flex flex-column">
+                                <span class="f-bold">87</span>
+                                <span class="sp-font">Number of Person </span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-4 col-md-6">
+                        <div class="d-flex">
+                            <span class="pt-4 pe-3">
+                                <span class="flaticon-download text-primary fs-2"></span>
+                            </span>
+                            <div class="d-flex flex-column">
+                                <span class="f-bold">2,500</span>
+                                <span class="sp-font">Number of Person </span>
+                            </div>
+                        </div>
+                        <div class="d-flex">
+                            <span class="pt-4 pe-3">
+                                <span class="flaticon-chat text-primary fs-2"></span>
+                            </span>
+                            <div class="d-flex flex-column">
+                                <span class="f-bold">920</span>
+                                <span class="sp-font">Number of Person </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="creativity-section col-12 col-lg-6 x mt-5">
+                <div><img class=" w-75 ms-xl-5" src="images/gramaphone.webp" alt=""></div>
+                <div class="bg-creativity w-50 p-4">
+                    <span class="flaticon-vector fs-2 text-white mb-2 d-block"></span>
+                    <h5 class="text-white mb-2 d-block">Creativity is the key</h5>
+                    <p class="f-creativity">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati commodi
+                        aspernatur eum eius inventore facilis.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section style="padding-top: 200px;">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <small class="sub-heading">Excellent Work</small>
+                    <h2 class="bold-font my-3">Our Works</h2>
+                    <p class="w-50 c_p fs-6">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem possimus
+                        distinctio ex. Natus
+                        totam
+                        voluptatibus animi aspernatur ducimus quas obcaecati mollitia quibusdam temporibus culpa
+                        dolore
+                        molestias blanditiis consequuntur sunt nisi.</p>
+                </div>
+            </div>
+        </div>
+        <section>
+            <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="2000">
+                        <div class="our-works-slider">
+                            <div class="overflow-hidden d-flex">
+                                <div class="col-xl-3 col-lg-4 col-sm-6 col-12 m-0 p-0 position-relative">
+                                    <a class="overflow-hidden d-block hover-img position-relative" href="#">
+                                        <img class="w-100 img-slider" src="images/gramaphone.webp" alt="">
+                                        <div class="w-100 h-100 position-absolute color-hover"></div>
+                                        <div class="w-100 h-100 position-absolute our-works-datas">
+                                            <h5 class="fw-bold">Work Name Here</h5>
+                                            <h6 class="text-gray">Website</h6>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="col-xl-3 col-lg-4 col-sm-6 col-12 m-0 p-0 position-relative">
+                                    <a class="overflow-hidden d-block hover-img position-relative" href="#">
+                                        <img class="w-100 img-slider" src="images/planet.webp" alt="">
+                                        <div class="w-100 h-100 position-absolute color-hover"></div>
+                                        <div class="w-100 h-100 position-absolute our-works-datas">
+                                            <h5 class="fw-bold">Work Name Here</h5>
+                                            <h6 class="text-gray">Website</h6>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="col-xl-3 col-lg-4 col-sm-6 col-12 m-0 p-0 position-relative">
+                                    <a class="overflow-hidden d-block hover-img position-relative" href="#">
+                                        <img class="w-100 img-slider" src="images/painter.webp" alt="">
+                                        <div class="w-100 h-100 position-absolute color-hover"></div>
+                                        <div class="w-100 h-100 position-absolute our-works-datas">
+                                            <h5 class="fw-bold">Work Name Here</h5>
+                                            <h6 class="text-gray">Website</h6>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="col-xl-3 col-lg-4 col-sm-6 col-12 m-0 p-0 position-relative">
+                                    <a class="overflow-hidden d-block hover-img position-relative" href="#">
+                                        <img class="w-100 img-slider" src="images/curly.webp" alt="">
+                                        <div class="w-100 h-100 position-absolute color-hover"></div>
+                                        <div class="w-100 h-100 position-absolute our-works-datas">
+                                            <h5 class="fw-bold">Work Name Here</h5>
+                                            <h6 class="text-gray">Website</h6>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item" data-bs-interval="2000">
+                        <div class="our-works-slider">
+                            <div class="overflow-hidden d-flex">
+                                <div class="col-xl-3 col-lg-4 col-sm-6 col-12 m-0 p-0 position-relative">
+                                    <a class="overflow-hidden d-block hover-img position-relative" href="#">
+                                        <img class="w-100 img-slider" src="images/whale.webp" alt="">
+                                        <div class="w-100 h-100 position-absolute color-hover"></div>
+                                        <div class="w-100 h-100 position-absolute our-works-datas">
+                                            <h5 class="fw-bold">Work Name Here</h5>
+                                            <h6 class="text-gray">Website</h6>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="col-xl-3 col-lg-4 col-sm-6 col-12 m-0 p-0 position-relative">
+                                    <a class="overflow-hidden d-block hover-img position-relative" href="#">
+                                        <img class="w-100 img-slider" src="images/planet.webp" alt="">
+                                        <div class="w-100 h-100 position-absolute color-hover"></div>
+                                        <div class="w-100 h-100 position-absolute our-works-datas">
+                                            <h5 class="fw-bold">Work Name Here</h5>
+                                            <h6 class="text-gray">Website</h6>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="col-xl-3 col-lg-4 col-sm-6 col-12 m-0 p-0 position-relative">
+                                    <a class="overflow-hidden d-block hover-img position-relative" href="#">
+                                        <img class="w-100 img-slider" src="images/painter.webp" alt="">
+                                        <div class="w-100 h-100 position-absolute color-hover"></div>
+                                        <div class="w-100 h-100 position-absolute our-works-datas">
+                                            <h5 class="fw-bold">Work Name Here</h5>
+                                            <h6 class="text-gray">Website</h6>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="col-xl-3 col-lg-4 col-sm-6 col-12 m-0 p-0 position-relative">
+                                    <a class="overflow-hidden d-block hover-img position-relative" href="#">
+                                        <img class="w-100 img-slider" src="images/curly.webp" alt="">
+                                        <div class="w-100 h-100 position-absolute color-hover"></div>
+                                        <div class="w-100 h-100 position-absolute our-works-datas">
+                                            <h5 class="fw-bold">Work Name Here</h5>
+                                            <h6 class="text-gray">Website</h6>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+        </section>
+        <section>
+            <div id="carouselExampleIndicators" class="carousel slide   position-fixed" style="z-index: 999;top: 0%;">
+                <div class="carousel-indicators bg-danger">
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+                        class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                        aria-label="Slide 3"></button>
+
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+        </section>
+    </section>
+
+
+    <section style="padding: 300px 0;">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <small class="sub-heading">Our Process </small>
+                    <h2 class="bold-font my-3">Our Process </h2>
+                    <p class="w-50 c_p fs-6">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem possimus
+                        distinctio ex. Natus
+                        totam
+                        voluptatibus animi aspernatur ducimus quas obcaecati mollitia quibusdam temporibus culpa
+                        dolore
+                        molestias blanditiis consequuntur sunt nisi.</p>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 col-12 position-relative"><span class="number">01</span>
+                    <span class="position-absolute icon-custom">
+                        <span class="flaticon-glasses display-4 text-primary mb-4 d-inline-block"></span>
+                    </span>
+                    <h3>Research</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem possimus distinctio ex. Natus
+                        totam
+                        voluptatibus animi aspernatur ducimus quas obcaecati mollitia quibusdam temporibus culpa
+                        dolore
+                        molestias blanditiis consequuntur sunt nisi. </p>
+                </div>
+                <div class="col-lg-4 col-12 position-relative"><span class="number">02</span>
+                    <span class="position-absolute icon-custom">
+                        <span class="flaticon-vector display-4 text-primary mb-4 d-inline-block"></span>
+                    </span>
+                    <h3>Building</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem possimus distinctio ex. Natus
+                        totam
+                        voluptatibus animi aspernatur ducimus quas obcaecati mollitia quibusdam temporibus culpa
+                        dolore
+                        molestias blanditiis consequuntur sunt nisi. </p>
+                </div>
+                <div class="col-lg-4 col-12 position-relative"><span class="number">03</span>
+                    <span class="position-absolute icon-custom">
+                        <span class="flaticon-monitor display-4 text-primary mb-4 d-inline-block"></span>
+                    </span>
+                    <h3>Launch</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem possimus distinctio ex. Natus
+                        totam
+                        voluptatibus animi aspernatur ducimus quas obcaecati mollitia quibusdam temporibus culpa
+                        dolore
+                        molestias blanditiis consequuntur sunt nisi. </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="bg-service">
+        <div class="container" style="padding-top: 100px;">
+            <div class="row">
+                <div class="col-12 pt-5">
+                    <small class="sub-heading">Services </small>
+                    <h2 class="bold-font my-3">Services </h2>
+                    <p class="w-50 c_p fs-6">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem possimus
+                        distinctio ex. Natus
+                        totam
+                        voluptatibus animi aspernatur ducimus quas obcaecati mollitia quibusdam temporibus culpa
+                        dolore
+                        molestias blanditiis consequuntur sunt nisi.</p>
+                </div>
+            </div>
+        </div>
+        <div class="d-flex mt-5" style="padding-bottom: 200px;">
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3 p-2">
+                <div class="bg-white p-5">
+                    <span>
+                        <span class="flaticon-reload fs-2 text-primary mb-4 d-inline-block"></span>
+                    </span>
+                    <h3> Reload</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem possimus distinctio ex. Natus
+                        totam
+                        voluptatibus animi aspernatur ducimus quas obcaecati mollitia quibusdam temporibus culpa
+                        dolore
+                        molestias blanditiis consequuntur sunt nisi.</p>
+                </div>
+            </div>
+            <div class=" col-sm-6 col-md-4 col-lg-3 d-none d-sm-block p-2">
+                <div class="bg-white p-5">
+                    <span>
+                        <span class="flaticon-monitor fs-2  text-primary mb-4 d-inline-block"></span>
+                    </span>
+                    <h3> Development</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem possimus distinctio ex. Natus
+                        totam
+                        voluptatibus animi aspernatur ducimus quas obcaecati mollitia quibusdam temporibus culpa
+                        dolore
+                        molestias blanditiis consequuntur sunt nisi.</p>
+                </div>
+            </div>
+            <div class=" d-none d-md-block col-md-4 col-lg-3 p-2  ">
+                <div class="bg-white p-5">
+                    <span>
+                        <span class="flaticon-glasses fs-2 text-primary mb-4 d-inline-block"></span>
+                    </span>
+                    <h3> Research</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem possimus distinctio ex. Natus
+                        totam
+                        voluptatibus animi aspernatur ducimus quas obcaecati mollitia quibusdam temporibus culpa
+                        dolore
+                        molestias blanditiis consequuntur sunt nisi.</p>
+                </div>
+            </div>
+            <div class=" d-none d-lg-block col-lg-3 p-2">
+                <div class="bg-white p-5">
+                    <span>
+                        <span class="flaticon-chat fs-2 text-primary mb-4 d-inline-block"></span>
+                    </span>
+                    <h3> Support</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem possimus distinctio ex. Natus
+                        totam
+                        voluptatibus animi aspernatur ducimus quas obcaecati mollitia quibusdam temporibus culpa
+                        dolore
+                        molestias blanditiis consequuntur sunt nisi.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="container">
+            <div class="row">
+                <div class="col-12 ">
+                    <div class="justify-content-center flex-column align-items-center d-flex">
+                        <h5 class="w-50 bold-font">Message Us</h5>
+                        <p class="w-50">Natus totam voluptatibus animi aspernatur ducimus quas obcaecati mollitia
+                            quibusdam temporibus culpa dolore molestias blanditiis consequuntur sunt nis</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <form action="">
+                    <div class="d-flex flex-lg-row  flex-column justify-content-center align-items-center mb-4">
+                        <input class=" w-75 mb-4 w-custom me-lg-2" placeholder="FirstName" type="text">
+                        <input class=" w-75 mb-4  w-custom" placeholder="LastName" type="text">
+                    </div>
+                    <div class="d-flex justify-content-center align-items-center flex-column mb-4">
+                        <input class="w-50 mb-4" placeholder="Subject" type="text">
+                        <input class="w-50" placeholder="Email" type="email">
+                    </div>
+                    <div class="d-flex flex-column justify-content-center align-items-center">
+                        <textarea class="w-50 mb-2" placeholder="Write yor message here" name="" id="" cols="30"
+                            rows="10"></textarea>
+                        <div class="w-50">
+                            <button class="border-0 text-white w-100 ft-btn rounded-1 ">SEND MESSAGE</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+    </div>
+    <section class="bg-footer mt-5">
+        <div class="container">
+            <div class="row" style="padding-top: 150px; padding-bottom: 100px;">
+                <div class="col-12 col-lg-4">
+                    <div class=" d-flex flex-column justify-content-left align-items-center">
+                        <h6 class="w-100">ABOUT AMPLIFY</h6>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro consectetur ut hic ipsum et
+                            veritatis corrupti. Itaque eius soluta optio dolorum temporibus in, atque, quos fugit sunt
+                            sit quaerat dicta.</p>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-3 offset-lg-1 ms-auto  ">
+                    <div class="d-flex flex-column justify-content-left align-items-center font-footer ">
+                        <h6 class="w-100">LINKS</h6>
+                        <a class="w-100 text-decoration-none" href="">Home</a>
+                        <a class="w-100 text-decoration-none" href="">Work</a>
+                        <a class="w-100 text-decoration-none" href="">Process</a>
+                        <a class="w-100 text-decoration-none" href="">Services</a>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-4">
+                    <div class="d-flex flex-column justify-content-left align-items-center">
+                        <h6 class="w-100">SUBSCRIBE</h6>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt incidunt iure iusto architecto? Numquam, natus</p>
+                        <div class="d-flex" >
+                            <input class="w-100" placeholder="Email" type="email" style="height: 40px;margin-right: 0%;" >
+                            <input class="ft-btn border-0 text-white" value="SUBSCRIBE" type="submit" style="height: 40px;">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row" style="padding-bottom: 100px; border-top: 1px solid rgba(0, 0, 0, .1); padding-top: 60px;">
+                <div class="col-12">
+                    <div class="d-flex justify-content-center text-gray">
+                        <p class="fs-6">Copyright ©2024 All rights reserved | This template is made with by Colorlib</p>
+                    </div>
+                
+                </div>
+            </div>
+        </div>
+    </section>
+    
 </body>
+
 </html>
